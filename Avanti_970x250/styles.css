@@ -1,0 +1,560 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+   RESET CSS
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/************ My CSS *************/
+
+html,
+body {
+  background-color: #fff;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  color: #fff;
+}
+
+html,
+.bannerSize {
+  width: 970px;
+  height: 250px;
+}
+
+span {
+  display: inline-block;
+}
+
+.textC {
+  text-align: center;
+}
+
+#banner {
+  background: #ffffff;
+  cursor: pointer;
+  overflow: hidden;
+  border: 1px solid #515151;
+  box-sizing: border-box;
+}
+
+.w100 {
+  width: 100%;
+  height: 100%;
+}
+
+.hide {
+  opacity: 0;
+}
+
+.posAbsolute {
+  position: absolute;
+}
+
+.avertaBlack {
+
+  font-family: 'AvertaCY-Black', sans-serif;
+}
+
+.avertaSemibold {
+
+  font-family: 'AvertaCY-Semibold', sans-serif;
+}
+
+.walsheimBlack {
+
+  font-family: 'GT-Walsheim-Black', sans-serif;
+}
+
+.textColorOrg {
+
+  color: #fc3f11;
+}
+
+.textColorGreen {
+
+  color: #1f4e58;
+}
+
+.textColorGrey {
+
+  color: #494949;
+}
+
+.fS17 {
+
+  font-size: 17px;
+}
+
+.greenBorder_box1 {
+  /* border: #1f4e58, solid; */
+  border: #1f4e58;
+  border-style: solid;
+  border-width: 44px;
+  width: 235px;
+  height: 212px;
+  left: -232px;
+  top: -82px;
+  border-radius: 87px;
+}
+
+.greenBorder_box2 {
+  /* border: #1f4e58, solid; */
+  border: #1f4e58;
+  border-style: solid;
+  border-width: 44px;
+  width: 1420px;
+  height: 220px;
+  left: -83px;
+  top: -90px;
+  border-radius: 88px;
+}
+
+.lightGreenContainer {
+
+  border: #dbf2e1, solid;
+  border-width: 44px;
+  width: 224px;
+  height: 220px;
+  left: 974px;
+  top: -226px;
+  border-radius: 88px;
+}
+
+/* .greenStripContainer {
+  width: 24px;
+  height: 603px;
+  background-color: #1f4e58;
+  left: 122px;
+  top: -2px;
+} */
+
+.whiteShadow {
+  width: 43px;
+  height: 150%;
+  background: linear-gradient(to bottom, rgba(46, 94, 110, 0), rgba(46, 94, 110, 0) 85%, #ffffff 140%);
+  border-radius: 50px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  left: 143px;
+  top: 10px;
+  transform: rotate(270deg);
+}
+
+.textMain {
+  width: 750px;
+  height: 350px;
+  left: 194px;
+  top: -100px;
+}
+
+.copy1 {
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 153px;
+  bottom: 36px;
+  flex-direction: column;
+  height: 176px;
+}
+
+.textCopy1 {
+
+  font-size: 23.8px;
+  text-align: left;
+  line-height: 26.4px;
+  transform: rotate(328deg);
+  position: relative;
+  left: 10px;
+  top: -9px;
+}
+
+.dashGreen {
+
+  width: 10px;
+  height: 5px;
+  background-color: #1f4e58;
+}
+
+.circleMain {
+
+  width: 36px;
+  position: relative;
+  height: 36px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #FFFFFF;
+  box-shadow: 0px 0px 13px rgba(0, 0, 0, 2.8);
+  left: -21px;
+}
+
+.innerCircle {
+  width: 19px;
+  height: 18px;
+  /* border: black, solid; */
+  border: black;
+  border-style: solid;
+  border-radius: 50%;
+  background-color: #011e22;
+}
+
+/* .textCopy2 {
+
+  font-size: 15px;
+  text-align: right;
+  line-height: 21px;
+} */
+
+.copy2 {
+  font-size: 14.2px;
+}
+
+.copy3 {
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+  width: 167px;
+  /* height: 160px; */
+  top: 182px;
+  left: 115px;
+  transform: rotate(90deg);
+}
+
+.textCopy3 {
+  font-size: 18.1px;
+  text-align: right;
+  line-height: 20.1px;
+  width: 141px;
+  transform: rotate(240deg);
+  position: relative;
+  left: 33px;
+  top: -57px;
+}
+
+.dashGreen1 {
+  width: 15px;
+  height: 13px;
+  background-color: #1f4e58;
+}
+
+.copy4 {
+
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+  width: 167px;
+  /* height: 160px; */
+  top: 182px;
+  left: 281px;
+  transform: rotate(90deg);
+}
+
+.textCopy4 {
+  font-size: 18.1px;
+  text-align: right;
+  line-height: 20.1px;
+  width: 141px;
+  transform: rotate(240deg);
+  position: relative;
+  left: 39px;
+  top: -45px;
+}
+
+.dashGreen2 {
+  width: 15px;
+  height: 13px;
+  background-color: #1f4e58;
+}
+
+.copy5 {
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+  width: 141px;
+  /* height: 160px; */
+  top: 195px;
+  left: 447px;
+  transform: rotate(90deg);
+}
+
+.textCopy5 {
+  font-size: 18.1px;
+  text-align: right;
+  line-height: 20.1px;
+  width: 141px;
+  transform: rotate(240deg);
+  position: relative;
+  left: 37px;
+  top: -21px;
+}
+
+.dashGreen5 {
+  width: 15px;
+  height: 13px;
+  background-color: #1f4e58;
+}
+
+.copy6 {
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+  width: 141px;
+  /* height: 160px; */
+  top: 195px;
+  left: 613px;
+  transform: rotate(90deg);
+}
+
+.textCopy6 {
+  font-size: 18.1px;
+  text-align: right;
+  line-height: 20.1px;
+  width: 141px;
+  transform: rotate(240deg);
+  position: relative;
+  left: 28px;
+  top: -35px;
+}
+
+.dashGreen3 {
+  width: 15px;
+  height: 13px;
+  background-color: #1f4e58;
+}
+
+.copy7 {
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+  width: 141px;
+  /* height: 160px; */
+  top: 195px;
+  left: 779px;
+  transform: rotate(90deg);
+}
+
+.textCopy7 {
+  font-size: 18.1px;
+  text-align: right;
+  line-height: 20.1px;
+  width: 141px;
+  transform: rotate(240deg);
+  position: relative;
+  left: 25px;
+  top: -40px;
+}
+
+.dashGreen4 {
+  width: 15px;
+  height: 13px;
+  background-color: #1f4e58;
+}
+
+.orangeStripContainer {
+  width: 43px;
+  height: 500px;
+  background-color: #fc3f11;
+  left: 106px;
+  /* transform: rotate(90deg); */
+  top: -70px;
+}
+
+.textMain2 {
+  width: 350px;
+  height: 350px;
+  /* transform: rotate(-20deg); */
+  left: 803px;
+  top: 28px;
+  text-align: left;
+  font-size: 24px;
+  line-height: 27px;
+}
+
+.textMain3 {
+  width: 350px;
+  height: 350px;
+  /* transform: rotate(-20deg); */
+  left: 804px;
+  top: 100px;
+  text-align: left;
+  font-size: 23.4px;
+  line-height: 25px;
+}
+
+.logoDisc {
+  top: 170px;
+  left: 744px;
+  width: 222px;
+  height: 120px;
+}
+
+#logo {
+  height: auto;
+  top: 181px;
+  /* left: 130px; */
+  width: 200px;
+}
+
+.disclaimer {
+  font-size: 7.6px;
+  top: 11px;
+  text-align: left;
+  position: relative;
+  left: 110px;
+}
+
+.ctaBox {
+  width: 146px;
+  height: 41px;
+  background-color: #fc3f11;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4px;
+  top: 172px;
+  left: 457px;
+  border-radius: 7px;
+  transform: scale(0.8);
+}
+
+.ctaCopy {
+  font-size: 17.3px;
+  margin-top: 2px;
+}
+
+.ctaIcon {
+  margin-left: 6px;
+  margin-top: 3px;
+}

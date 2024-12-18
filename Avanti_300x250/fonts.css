@@ -1,0 +1,14 @@
+@font-face {
+    font-family: "AvertaCY-Black";
+    src: url("fonts/AvertaCY-Black.woff") format("opentype");
+}
+
+@font-face {
+    font-family: "AvertaCY-Semibold";
+    src: url("fonts/AvertaCY-Semibold.woff2") format("opentype");
+}
+
+@font-face {
+    font-family: "GT-Walsheim-Black";
+    src: url("fonts/GTWalsheim-Black.woff2") format("opentype");
+}
